@@ -13,3 +13,4 @@ def activation_function(x,activation_name):
             return max(0, x)
         case 'elu':
             return x if x > 0 else 0.01 * (math.exp(x)-1)
+            
